@@ -1,0 +1,149 @@
+
+/* default - start */
+html {
+  font-family: "Roboto", "Verdana", Helvetica, Arial, sans-serif; 
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%; 
+
+    background-image:url('./background.jpg');
+}
+
+img { border:0px; } 
+
+.pageWidth {width:1150px;}
+/* default - end */
+
+.hideScrollBar{
+  overflow-y: hidden;
+}
+
+.alignCenter {margin:auto;}
+.alignRight {float:right;}
+.alignLeft {float:left;}
+.clearwidth {width:auto;}
+
+.block {display: block;}
+.inlineBlock {display: inline-block;}
+
+.height1 {height:900px;}
+.height2 {height:600px;}
+.height100 {height:100px;}
+
+.width1 {width:410px;}
+.width2 {width:150px;}
+.width3 {width:234px;}
+
+.lineheighta {line-height:18px;}
+.lineheightb {line-height:19px;}
+.lineheightc {line-height:20px;}
+
+.paddingTop10 {padding-top: 10px;}
+.paddingTop20 {padding-top: 20px;}
+.paddingTop50 {padding-top: 50px;}
+.paddingBot50 {padding-bottom: 50px;}
+
+.allPadding1{padding: 18px 10px 0px 10px;}
+.allPadding1-2{padding: 18px 10px 0px 20px;}
+.allPadding2{padding: 54px 0px 0px 20px;}
+.allPadding2-2{padding: 53px 600px 0px 20px;}
+.allPadding3 {padding: 40px 0px 0px 40px;}
+.allPadding4 {padding: 20px 0px 0px 40px;}
+.allPadding5 {padding: 55px 0px 0px 280px;}
+
+.noMargin {margin: 0;}
+
+.bgGreyA {background-color:#F1F1F1;}
+.bgGreyB {background-color:#F2F2F2;}
+.bgGreyC {background-color:#E8E8E8;}
+.bgGreyE {background-color:#FCFCFC;}
+
+.italic {font-style:italic;}
+.thick {font-weight:bold;}
+.normal {font-weight:normal;}
+.underline {text-decoration: underline;}
+
+.center{text-align:center;}
+.left{text-align:left;}
+.right{text-align:right;}
+.balance {text-align:justify;}
+.top {vertical-align:top;}
+.bottom { vertical-align:bottom;}
+
+.breakallwords { word-break:break-all; }
+
+.font9  {-webkit-text-size-adjust:none; font-size:9px;}
+.font8  {-webkit-text-size-adjust:none; font-size:8px;}
+.font10   {-webkit-text-size-adjust:none; font-size:10px;}
+.font11 {font-size:11px;}
+.font12   {font-size:12px;}
+.font14   {font-size:14px;}
+.font16   {font-size:16px;}
+.font18   {font-size:18px;}
+.font20   {font-size:20px;}
+.font30   {font-size:30px;}
+.font40   {font-size:40px;}
+
+.tcolorGray1 {color: #666;}
+/* BUTTON WITH STYLES - START */
+.buttonstyle {
+  box-shadow:inset 0px 1px 1px 0px #FFFFFF; -webkit-box-shadow:inset 0px 1px 1px 0px #FFFFFF; -moz-box-shadow:inset 0px 1px 1px 0px #FFFFFF;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #EDEDED), color-stop(1, #DFDFDF) );
+  background:-moz-linear-gradient( center top, #EDEDED 5%, #DFDFDF 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#EDEDED', endColorstr='#DFDFDF');
+  background-color:#EDEDED;
+  border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;
+  border:1px solid #DCDCDC; display:inline-block; color:#666666; padding:9.5px 16px; text-decoration:none; text-shadow:1px 1px 0px #FFFFFF; cursor:pointer; font-size:13px;
+}.buttonstyle:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #DFDFDF), color-stop(1, #EDEDED) );
+  background:-moz-linear-gradient( center top, #DFDFDF 5%, #EDEDED 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#DFDFDF', endColorstr='#EDEDED');
+  background-color:#DFDFDF;
+}.buttonstyle:active { position:relative; top:1px; }
+/* BUTTON WITH STYLES - END */
+
+
+a:link {color:#0074A2; text-decoration:none; /* 555555 */
+} a:visited {color:#0074A2; text-decoration:none;
+} a:hover {color:#cc0000; text-decoration:underline;  
+  -webkit-transition: color 0.15s ease-in-out; -moz-transition: color 0.15s ease-in-out; -ms-transition: color 0.15s ease-in-out; -o-transition: color 0.15s ease-in-out; transition: color 0.15s ease-in-out;
+} a:active {color:#0074A2; }
+
+/*Clearfix: contain floats */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.bgStyle1 {
+    box-shadow: 4px 4px 1px #eee;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.linkstyle:hover{
+  cursor: pointer;
+  color: #1d4e78;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 14px 2px 0px 2px;
+}
+
+.linkstyle2:hover{
+  cursor: pointer;
+  color: #1d4e78;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 14px 2px 0px 12px;
+}

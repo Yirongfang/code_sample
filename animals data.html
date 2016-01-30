@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Animals Data</title>
+
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet"  href="./style.css">
+
+        <meta name="Description" content="Animal Data Reports">
+        <meta name="Keywords" content="protect animals testing">
+        <meta name="Author" content="Yirong Fang">
+
+        <link rel="stylesheet" type="text/css" href="css/cfie.css" media="screen" />
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+
+        <script>
+            function showOff(str) {
+                if (document.getElementById(str).style.display == 'block')
+                {
+                }else{
+
+                    document.getElementById('t2012').style.display = 'none';
+                    document.getElementById('t2011').style.display = 'none';
+                    document.getElementById('t2009').style.display = 'none';
+                    document.getElementById('t2008').style.display = 'none';
+                    document.getElementById('t2007').style.display = 'none';
+                    document.getElementById('t2006').style.display = 'none';
+
+                    document.getElementById(str).style.display = 'block';
+                }
+
+                
+            }
+
+        </script>
+        
+
+    </head>
+
+    <body>
+        <div class="pageWidth alignCenter">
+            <div class="font40 paddingTop50">SUMMARY OF ANIMAL DATA REPORT</div>
+
+            <div class="font20 paddingTop10 " style="color:#666;">
+                This report is from The Canadian Council on Animal Care (CCAC). CCAC is the national peer-review organization responsible for setting, maintaining, and overseeing the implementation of high standards for animal ethics and care in science throughout Canada.
+
+                <a href="http://www.ccac.ca/en_" target="_blank"><img class="block paddingTop10 paddingBot50" src="./CCAC_in_science-logo.png" alt="Logo" width="250"></a>
+            </div>
+
+            <div class="bgStyle1 height100 width1">
+                <div class="font20 allPadding1-2" style="color:#1d4e78;">Access to annual data</div>
+                <div class="linkstyle2 inlineBlock allPadding1-2 tcolorGray1" onclick="showOff('t2012')">2012</div>
+                <div class="linkstyle inlineBlock allPadding1 tcolorGray1" onclick="showOff('t2011')">2011</div>
+                <div class="linkstyle inlineBlock allPadding1 tcolorGray1" onclick="showOff('t2009')">2009</div>
+                <div class="linkstyle inlineBlock allPadding1 tcolorGray1" onclick="showOff('t2008')">2008</div>
+                <div class="linkstyle inlineBlock allPadding1 tcolorGray1" onclick="showOff('t2007')">2007</div>
+                <div class="linkstyle inlineBlock allPadding1 tcolorGray1" onclick="showOff('t2006')">2006</div>
+            </div>
+
+            <br /><br /><br />
+
+            <div class="block bgStyle1 height1" id="t2012">
+                <img class="allPadding3 width2 alignLeft" src="./2012.png" alt="Year 2012" width="150"><div class="inlineBlock width3 allPadding2 balance" style="color:#666;">In 2012, <span class="thick">2,889,009</span> animals used for research, teaching and testing.</div>
+                <img class="block allPadding4" src="./2012-Quick_Fact.png" alt="Pic" width="400">
+                <img class="inlineBlock allPadding4" src="./2012-1.jpg" alt="Pic" width="522">
+                <img class="inlineBlock allPadding4" src="./2012-2.jpg" alt="Pic" width="500">
+            </div>
+
+            <div class="bgStyle1 height1 hidden" id="t2011">
+                <img class="allPadding3 width2 alignLeft" src="./2011.png" alt="Year 2011" width="150"><div class="inlineBlock width3 allPadding2 balance" style="color:#666;">In 2011, <span class="thick">3,333,689</span> animals used for research, teaching and testing.</div>
+                <img class="block allPadding4" src="./2011-Quick_Fact.png" alt="Pic" width="400">
+                <img class="inlineBlock allPadding4" src="./2011-1.jpg" alt="Pic" width="522">
+                <img class="inlineBlock allPadding4" src="./2011-2.jpg" alt="Pic" width="500">
+            </div>
+
+            <div class="bgStyle1 height2 hidden" id="t2009">
+                <img class="allPadding3 width2 alignLeft" src="./2009.png" alt="Year 2009" height="67"><div class="inlineBlock width3 allPadding2-2 balance" style="color:#666;">In 2009, <span class="thick">3,375,027</span> animals used for research, teaching and testing.</div>
+                <img class="inlineBlock allPadding4" src="./2009-1.jpg" alt="Pic" width="600">
+                <img class="inlineBlock allPadding4" src="./2009-2.jpg" alt="Pic" width="400">
+            </div>
+
+            <div class="bgStyle1 height1 hidden" id="t2008">
+                <img class="allPadding3 width2 alignLeft" src="./2008.png" alt="Year 2008" height="67"><div class="inlineBlock width3 allPadding2-2 balance" style="color:#666;">In 2009, <span class="thick">2,272,815</span> animals used for research, teaching and testing.</div>
+                <img class="inlineBlock allPadding5" src="./2008-1.jpg" alt="Pic" width="600">
+            </div>
+
+            <div class="bgStyle1 height1 hidden" id="t2007">
+                <img class="allPadding3 width2 alignLeft" src="./2007.png" alt="Year 2007" height="67"><div class="inlineBlock width3 allPadding2-2 balance" style="color:#666;">In 2009, <span class="thick">2,054,909</span> animals used for research, teaching and testing.</div>
+                <img class="inlineBlock allPadding5" src="./2007-1.jpg" alt="Pic" width="600">
+            </div>
+
+            <div class="bgStyle1 height1 hidden" id="t2006">
+                <img class="allPadding3 width2 alignLeft" src="./2006.png" alt="Year 2006" height="67"><div class="inlineBlock width3 allPadding2-2 balance" style="color:#666;">In 2009, <span class="thick">2,535,989</span> animals used for research, teaching and testing.</div>
+                <img class="inlineBlock allPadding5" src="./2006-1.jpg" alt="Pic" width="600">
+            </div>
+
+
+            </div>
+        </div>
+
+        <br /><br /><br />
+    </body>
+
+</html>
